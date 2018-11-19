@@ -1,0 +1,10 @@
+smtp:
+  host: smtp.postmarkapp.com
+  port: 587
+  username: ...
+  password: ...
+  from: noreply@example.org
+
+forms:
+  example: # POST /f/example
+    to: test@example.org
